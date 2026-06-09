@@ -149,7 +149,7 @@ st.markdown(
     """
 )
 st.latex(r"\text{벽면 그림자 길이} = \frac{H}{\tan\theta}")
-st.markdown(f"👉 **수식 대입 결과:** ${b_height} \div \tan({sun_angle}^\circ) = {shadow_from_height:.2f}\text{m}$")
+st.markdown(fr"👉 **수식 대입 결과:** ${b_height} \div \tan({sun_angle}^\circ) = {shadow_from_height:.2f}\text{{m}}$")
 st.markdown('</div>', unsafe_allow_html=True)
 
 st.divider()
